@@ -32,6 +32,49 @@ body {
     margin-top: 2vh;
     transition: 0.5s ease-in-out;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#einsatz {
+    background: #9b59b6;
+    width: 130px;
+    height: 30px;
+    border: 3px solid #9b59b6;
+    border-radius: 10px;
+    color: black;
+    font-size: 24px;
+    margin-left: 45vw;
+    margin-top: 2vh;
+    transition: 0.5s ease-in-out;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#einsatzSubmitButton {
+    background: #9b59b6;
+    width: 130px;
+    height: 30px;
+    border: 3px solid #9b59b6;
+    border-radius: 10px;
+    color: black;
+    font-size: 24px;
+    margin-left: 45vw;
+    margin-top: 2vh;
+    transition: 0.5s ease-in-out;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#einsatzSubmitButton:hover{
+    border: 3px solid #9b59b6;
+    background: #3498db;
 }
 
 #spinButton:hover {
@@ -77,5 +120,13 @@ body {
     visibility: hidden;
     font-size: 42px;
     text-align: center;
+    color: white;
+}
+
+#guthaben {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 24px;
     color: white;
 }
