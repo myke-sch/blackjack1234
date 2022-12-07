@@ -1,0 +1,81 @@
+body {
+    background: #3498db;
+}
+
+.flex-container {
+    display: flex;
+    width: 400px;
+    height: 200px;
+    margin-top: 33vh;
+    margin-left: 36vw;
+
+}
+.flex-child {
+    flex: 1;
+    border: 2px solid white;
+    margin: 10px;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+#spinButton {
+    background: #2ecc71;
+    width: 130px;
+    height: 50px;
+    border: 3px solid #2ecc71;
+    border-radius: 10px;
+    color: black;
+    font-size: 24px;
+    margin-left: 45vw;
+    margin-top: 2vh;
+    transition: 0.5s ease-in-out;
+    color: white;
+}
+
+#spinButton:hover {
+    border: 3px solid #2ecc71;
+    background: #3498db;
+}
+
+#slot1Symbol {
+    text-align: center;
+    font-size: 48px;
+    transition: 0.5s ease-in-out;
+    padding-bottom: 10px;
+    display: block;
+    position: absolute;
+    left: 25px;
+    overflow: hidden;
+    top: 0px;
+}
+
+#slot2Symbol {
+    text-align: center;
+    font-size: 48px;
+    transition: 0.5s ease-in-out;
+    padding-bottom: 10px;
+    display: block;
+    position: absolute;
+    left: 25px;
+    top: 0px;
+}
+
+#slot3Symbol {
+    text-align: center;
+    font-size: 48px;
+    transition: 0.5s ease-in-out;
+    padding-bottom: 10px;
+    display: block;
+    position: absolute;
+    left: 25px;
+    top: 0px;
+}
+
+#jackpot_h1 {
+    visibility: hidden;
+    font-size: 42px;
+    text-align: center;
+    color: white;
+}
