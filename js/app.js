@@ -100,6 +100,7 @@ function rundeBeenden() {
         gewinnerBerechnen();
         let reset = document.createElement("button")
         reset.innerHTML = "Zurücksetzen"
+        reset.classList.add("button-28")
         document.getElementById("btns").appendChild(reset)
         reset.addEventListener("click", () => {
             for(let i = 0; i < 3; i++){
